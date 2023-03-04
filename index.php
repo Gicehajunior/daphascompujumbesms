@@ -14,6 +14,8 @@ class DaphasBulkSmS {
     private $contacts;
     private $message;
 
+    private $ujumbe_messaging_endpoint;
+
     /**
      * DaphasBulkSmS class constructor
      */
@@ -22,6 +24,7 @@ class DaphasBulkSmS {
         $this->sender_id = $sender_id;
         $this->api_key = $api_key;
         $this->sender_email = $sender_email;
+        $this->ujumbe_messaging_endpoint = "https://ujumbesms.co.ke/api/messaging";
     }
 
 
@@ -42,7 +45,7 @@ class DaphasBulkSmS {
         $curl = curl_init();
         
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://ujumbesms.co.ke/api/messaging",
+            CURLOPT_URL => $this->ujumbe_messaging_endpoint,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
