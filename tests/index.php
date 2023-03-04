@@ -1,6 +1,6 @@
 <?php
 include('vendor/autoload.php');
-include('../index.php'); 
+include('../DaphasBulkSmS.php'); 
 
 $dotenv = Dotenv\Dotenv::createMutable(__DIR__);
 $dotenv->load();
