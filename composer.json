@@ -1,8 +1,8 @@
 {
     "name": "daphascompujumbesms/daphascompujumbesms",
     "description": "A simple ujumbe sms api helper in PHP for daphascomp consultants",
-    "keywords": ["mpesa", "mpesa-payment", "daraja-api"],
-    "homepage": "https://github.com/Gicehajunior/daphascompujumbesms/tree/main",
+    "keywords": ["daphascomp", "daphascompujumbesms", "ujumbe", "ujumbesms-api"],
+    "homepage": "https://github.com/Gicehajunior/daphascompujumbesms",
     "license": "MIT",
     "authors": [
        {
